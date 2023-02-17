@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: azure;
+}
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(245, 183, 183);
+  animation: fadeIn 5s;
+
+}
+
+
+.App-header {
+  /* min-height: 50vh; */
+  padding: 10% 0 5% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+.padding {
+  padding: 10px 0;
+}
+
+
+
+.myImg {
+  height: 50%;
+  border-radius: 50%;
+}
+
+/* ------------------------------- */
+.aboutme,
+.portfolio {
+  max-width: 70%;
+  margin: auto;
+  padding:5% 0;
+}
+
+.aboutme {
+ 
+  background-image: url(../src/asserts/aboutme.jpg)no-repeat;
+
+}
+
+.portfolio {
+  padding-bottom: 2%;
+}
+
+.aboutme-heading {
+  padding-bottom: 2%;
+}
+
+
+.aboutme-heading,
+.portfolio-heading,
+.education-heading {
+  font-family: Arial;
+  font-size: calc(10px + 2vmin);
+  animation: fadeIn 5s;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ---------------- */
+
+
+
+.flipcard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.projects ul li {
+  vertical-align: middle;
+}
+
+  .project-img{
+    width:60%;
+    height:350px;
+  }
+  .project-img img {
+    width: 100%;
+    height: 100%;
+  
+  }
+
+  .project-content{
+    width:300px;
+    margin:1% 0;
+  }
+
+
+.tech {
+  display:flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+.tech li{
+margin:10px;
+padding:1% 2%;
+border-radius: 8%;
+background-color:rgb(245, 183, 183);;
+color: azure;
+}
+
+.education-section {
+  margin: 0 auto 10%;
+  max-width: 70%;
+}
+
+
+.education-heading {
+  padding: 4% 0;
+  background-image: url(../src/asserts/page1.jpg) norepeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  margin: 10px auto;
+  text-align: left;
+
+}
+
+.active {
+  color:  rgb(245, 183, 183)
+}
+
+
+/* Break points */
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  .App-header {
+    min-height: 50vh;
+    flex-direction: column-reverse;
+  }
+
+  .myImg {
+    width: 70vw;
+    border-radius: 50%;
+  }
+  .project-content{
+    width:100%;
+    margin:3% 0;
+  }
+  .project-img{
+    width:60%;
+    height:150px;
+  }
+  .project-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+
+  .project-img{
+    width:100%;
+    height:350px;
+  }
+  .project-img img {
+    width: 100%;
+    height: 100%;
+  
+  }
+  .project-content{
+    width:100%;
+  }
+}
+
+
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+
+}
+
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .project-img{
+    width:60%;
+    height:350px;
+  }
+  .project-img img {
+    width: 100%;
+    height: 100%;
+  
+  }
+
+  .project-content{
+    width:300px;
+    margin:1% 0;
+  }
+
+}

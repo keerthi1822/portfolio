@@ -1,0 +1,31 @@
+.navigation {
+    padding: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    width: 100%;
+    background-color: #282c34;
+}
+
+.navigation-list {
+    display: flex;
+    list-style: none;
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
+
+.navigation-list li *,
+.home-link * {
+    color: azure;
+    text-decoration: none;
+
+}
+
+
+.navigation-list li .active {
+border-radius: none;
+    color: rgb(245, 183, 183);
+}
+/* ---------------------------------------- */

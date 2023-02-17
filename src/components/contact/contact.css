@@ -1,0 +1,23 @@
+
+.contact {
+  margin: 6% 0;
+  
+}
+
+.social_icons {
+    height:3%;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #282c34;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom:0;
+    right: 0;
+    width: 100%;
+  }
+  
+  .social_icons a {
+    color:rgb(245, 183, 183);
+    text-decoration: none;
+  }
