@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from "react-scroll";
 
 /* import { Link } from 'react-router-dom'; */
@@ -6,9 +6,6 @@ import { Link } from "react-scroll";
 import './navigation.css'
 
 const Navigation = () => {
-
-  const [active, setActive] = useState()
-  /*   const [isActive, setIsActive] = useState(true && active) */
 
   return (
     <div className='navigation'>
