@@ -14,11 +14,11 @@ const Navigation = () => {
     <div className='navigation'>
 
       <div className='home-link'>
-        
-      <Link activeClass="active" smooth spy to="home">
-      H!!OM!!E
-      </Link>
-       
+
+        <Link activeClass="active" smooth spy to="home">
+          H!!OM!!E
+        </Link>
+
       </div>
 
       <ul className='navigation-list'>
@@ -31,21 +31,21 @@ const Navigation = () => {
 
         <li>
           <Link activeClass="active" smooth spy to="Portfolio">
-          Portfolio
+            Portfolio
           </Link>
         </li>
 
         <li>
-        <Link activeClass="active" smooth spy to="Education">
-        Education
+          <Link activeClass="active" smooth spy to="Education">
+            Education
           </Link>
-         </li>
+        </li>
         <li>
 
-        <Link activeClass="active" smooth spy to="EducContactation">
-        Contact
+          <Link activeClass="active" smooth spy to="EducContactation">
+            Contact
           </Link>
-         </li>
+        </li>
 
       </ul>
     </div>
