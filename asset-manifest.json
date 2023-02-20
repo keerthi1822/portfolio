@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0592529d.css",
-    "main.js": "/portfolio/static/js/main.0ed34284.js",
+    "main.css": "/portfolio/static/css/main.ae4efb0a.css",
+    "main.js": "/portfolio/static/js/main.5871ae51.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/sydDanskInnovation.PNG": "/portfolio/static/media/sydDanskInnovation.62690a1ca6a46043a835.PNG",
     "static/media/vibildco.PNG": "/portfolio/static/media/vibildco.4a18b47035ee9a85cddd.PNG",
@@ -11,13 +11,14 @@
     "static/media/myPicture.jpeg": "/portfolio/static/media/myPicture.60a7df2a69f628a00c2b.jpeg",
     "static/media/aboutme.jpg": "/portfolio/static/media/aboutme.e1e8994d01a16a74ae14.jpg",
     "static/media/page1.jpg": "/portfolio/static/media/page1.b3e90c6bcd7537510215.jpg",
+    "static/media/codeart.PNG": "/portfolio/static/media/codeart.83475fe057993f0af0a3.PNG",
     "index.html": "/portfolio/index.html",
-    "main.0592529d.css.map": "/portfolio/static/css/main.0592529d.css.map",
-    "main.0ed34284.js.map": "/portfolio/static/js/main.0ed34284.js.map",
+    "main.ae4efb0a.css.map": "/portfolio/static/css/main.ae4efb0a.css.map",
+    "main.5871ae51.js.map": "/portfolio/static/js/main.5871ae51.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0592529d.css",
-    "static/js/main.0ed34284.js"
+    "static/css/main.ae4efb0a.css",
+    "static/js/main.5871ae51.js"
   ]
 }
