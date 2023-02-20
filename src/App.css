@@ -47,11 +47,11 @@ h6 {
 .portfolio {
   max-width: 70%;
   margin: auto;
-  padding:5% 0;
+  padding: 5% 0;
 }
 
 .aboutme {
- 
+
   background-image: url(../src/asserts/aboutme.jpg)no-repeat;
 
 }
@@ -98,33 +98,36 @@ h6 {
   vertical-align: middle;
 }
 
-  .project-img{
-    width:60%;
-    height:350px;
-  }
-  .project-img img {
-    width: 100%;
-    height: 100%;
-  }
+.project-img {
+  width: 60%;
+  height: 350px;
+}
 
-  .project-content{
-    width:300px;
-    margin:1% 0;
-  }
+.project-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-content {
+  width: 300px;
+  margin: 1% 0;
+}
 
 
 .tech {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   list-style: none;
   justify-content: center;
+  margin-top: 5px;
 }
-.tech li{
-margin:10px;
-padding:1% 2%;
-border-radius: 8%;
-background-color:rgb(245, 183, 183);
-color: azure;
+
+.tech li {
+  margin-top: 2px;
+  padding: 1% 2%;
+  border-radius: 8%;
+  background-color: rgb(245, 183, 183);
+  color: azure;
 }
 
 .education-section {
@@ -155,7 +158,7 @@ color: azure;
 }
 
 .active {
-  color:  rgb(245, 183, 183)
+  color: rgb(245, 183, 183)
 }
 
 /* Project courasel styles */
@@ -176,37 +179,38 @@ color: azure;
 .carousel__image {
   display: block;
 }
+
 .carousel::-webkit-scrollbar {
-  display:block;
+  display: block;
 }
 
 .carousel::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 
 
 /* Handle */
 .carousel::-webkit-scrollbar-thumb {
-  background: rgb(245, 183, 183); 
+  background: rgb(245, 183, 183);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 .carousel::-webkit-scrollbar-thumb:hover {
-  background:rgb(245, 183, 183); 
+  background: rgb(245, 183, 183);
 }
 
 
-.controls__dot{
+.controls__dot {
   margin: 0 3px;
   padding: 1px 6px;
-  color:azure;
+  color: azure;
 
 }
 
 .controls {
-  padding:2% 0;
+  padding: 2% 0;
 }
 
 .controls a {
@@ -219,35 +223,38 @@ color: azure;
 /* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 595px) {
 
-/*   .App {
-    overflow-x:auto
-  } */
-
   .App-header {
     margin-top: 40px;
     min-height: 50vh;
     flex-direction: column-reverse;
   }
-.aboutme-heading,.portfolio-heading,.education-heading {
-  margin-top: 40px;
-}
+
+  .aboutme-heading,
+  .portfolio-heading,
+  .education-heading {
+    margin-top: 40px;
+  }
 
   .myImg {
     width: 70vw;
     border-radius: 50%;
   }
-  .project-content{
-    width:100%;
-    margin:3% 0;
+
+  .project-content {
+    width: 100%;
+    margin: 3% 0;
   }
-  .project-img{
-    width:60%;
-    height:150px;
+
+  .project-img {
+    width: 60%;
+    height: 150px;
   }
+
   .project-img img {
     width: 100%;
     height: 100%;
   }
+
   .education {
     flex-direction: column;
   }
@@ -255,35 +262,80 @@ color: azure;
 
 }
 
-/* Small screen devices (600px and above) */
- @media only screen and (min-width: 600px) {} 
-
-
-
-/* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {}
-
-/* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {
-
-}
-
-
-/* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 1200px) {
-  .project-img{
-    width:60%;
-    height:350px;
+@media only screen and (max-width: 600px) {
+  .project-img {
+    width: 100%;
+    height: 150px;
   }
+
   .project-img img {
     width: 100%;
     height: 100%;
-  
+
   }
 
-  .project-content{
-    width:300px;
-    margin:1% 0;
+  .project-content {
+    width: 100%;
+    margin: 1% 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .project-img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .project-content {
+    width: 100%;
+    margin: 1% 0;
+  }
+}
+
+
+@media only screen and (min-width: 875px) {
+  .project-img {
+    width: 60%;
+    height: 200px;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .project-content {
+    font-size: small;
+    width: 250px;
+    margin: 1% 0;
+  }
+
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .project-img {
+    width: 60%;
+    height: 350px;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .project-content {
+    width: 300px;
+    margin: 1% 0;
+    font-size: medium;
   }
 
 }

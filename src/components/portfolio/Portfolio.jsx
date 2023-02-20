@@ -6,6 +6,9 @@ import plata from "../../asserts/Plata.png"
 import Syd from "../../asserts/sydDanskInnovation.PNG"
 import vibildco from "../../asserts/vibildco.PNG"
 import fabric from "../../asserts/fabric.PNG"
+import codeart from "../../asserts/codeart.PNG"
+
+
 
 
 
@@ -19,16 +22,16 @@ const projects = [
     id: 1,
     projectName: "Fintech",
     img: plata,
-    technologiesUsed: ["React", "JavaScript", "Typescipt", "HTML/CSS", "Jest", "tailwindCSS"],
+    technologiesUsed: ["React", "JavaScript", "Typescipt", "HTML/CSS", "Jest", "TailwindCSS","Postman"],
     company: "Plata",
     position: "React Developer. (01/2022 - 07/2022)",
-    description: "building an application by automating the registration flow using React and maintaining the application consistency using DRY concepts. And mentoring student employees on the programming and React Application that we are working on."
+    description: "Building an application by automating the registration flow using React and maintaining the application consistency using DRY concepts. And mentoring student employees on the programming and React Application that we are working on."
   },
   {
     id: 2,
     projectName: "Profile",
-    img: "not available",
-    technologiesUsed: ["React", "JavaScript", "HTML/CSS", "Postman"],
+    img: codeart,
+    technologiesUsed: ["React Hooks", "JavaScript", "HTML/CSS", "Postman"],
     company: "Code Art",
     position: "Frontend Developer(11/2020 - 06/2021)",
     description: "Responsible for developing end-to-end user-friendly and interactive profile management tool using functionalities in React hooks."
@@ -39,10 +42,10 @@ const projects = [
     projectName: "Vibildco",
     link: "vibildco.dk",
     img: vibildco,
-    technologiesUsed: ["React", "JavaScript", "HTML/CSS", "Gatsby", "GraphQL", "Contentful", "sass"],
+    technologiesUsed: ["React", "JavaScript", "HTML", "Gatsby", "GraphQL", "Contentful", "CSS/SASS"],
     company: "Code art",
     position: "Frontend Developer(11/2020 - 06/2021)",
-    description: "esponsible for developing websites using Content Management systems like Umbraco and Contentful and tools like GraphQL, and Gatsby"
+    description: "Responsible for developing websites using Content Management systems like Umbraco and Contentful and tools like GraphQL, and Gatsby"
 
   },
   {
@@ -50,10 +53,10 @@ const projects = [
     projectName: "Syddanskinnovation",
     link: "https://www.syddanskinnovation.dk/",
     img: Syd,
-    technologiesUsed: ["HTML/CSS", "Umbraco", "Razor", "sass"],
+    technologiesUsed: ["HTML", "Umbraco", "Razor", "CSS/SASS"],
     company: "Code art",
     position: "Frontend Developer(11/2020 - 06/2021)",
-    description: "esponsible for developing websites using Content Management systems like Umbraco and Contentful and tools like GraphQL, and Gatsby"
+    description: "Responsible for developing websites using Content Management systems like Umbraco and Contentful and tools like GraphQL, and Gatsby"
 
   },
   {
@@ -130,7 +133,6 @@ if(projects[i] = project) setActive(i)
         </section>
 
       </>
-      {/* <ColoredLine color="gray"/> */}
     </div>
   )
 }

@@ -3,8 +3,6 @@ import myImg from "./asserts/myPicture.jpeg"
 
 import './App.css'
 
-
-
 const LandingPage = ({ColoredLine}) => {
   
   return (

@@ -3,7 +3,6 @@
 import AboutMe from './components/aboutme/AboutMe';
 import LandingPage from './LandingPage';
 import Navigation from './components/navigation/Navigation'
-
 import Education from './components/education/Education';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/./contact/Contact';
@@ -19,7 +18,7 @@ function App() {
       style={{
         color: color,
         backgroundColor: color,
-  
+
       }}
     />
   );
@@ -28,23 +27,23 @@ function App() {
     <div className="App">
 
       <div>
-      <Navigation />
-      <div id="home">
-      <LandingPage ColoredLine={ColoredLine}/>
-      </div>
-      <div id="AboutMe">
-      <AboutMe/>
-      </div>
-      <div id="Portfolio"> 
-      <Portfolio ColoredLine={ColoredLine}/>
-      </div>
-      <div id="Education">
-      <Education/>
-      <ColoredLine color="gray"/>
-      </div >
-      <div id="Contact">
-      <Contact/>
-      </div>
+        <Navigation />
+        <div id="home">
+          <LandingPage ColoredLine={ColoredLine} />
+        </div>
+        <div id="AboutMe">
+          <AboutMe />
+        </div>
+        <div id="Portfolio">
+          <Portfolio ColoredLine={ColoredLine} />
+        </div>
+        <div id="Education">
+          <Education />
+          <ColoredLine color="gray" />
+        </div >
+        <div id="Contact">
+          <Contact />
+        </div>
       </div>
     </div>
   );
