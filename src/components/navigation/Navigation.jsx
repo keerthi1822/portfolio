@@ -26,7 +26,7 @@ const Navigation = () => {
 
         <li>
           <Link activeClass="active" smooth spy to="Portfolio">
-            Portfolio
+            Projects
           </Link>
         </li>
 
