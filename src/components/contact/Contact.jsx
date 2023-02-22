@@ -16,7 +16,7 @@ const Contact = () => {
           <i className="fab fa-linkedin-in" />
         </a>
         <a
-          href="https://github.com/keerthi1822/ProjectPmon"
+          href="https://github.com/keerthi1822/portfolio"
           target="_blank"
           rel="noreferrer"
           title="keerthi's github"
