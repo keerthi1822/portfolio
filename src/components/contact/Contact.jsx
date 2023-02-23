@@ -3,10 +3,10 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact">
+   
     
       <section className="social_icons">
-     {/*  <h4 className='contact-heading '><span>Contact: </span></h4> */}
+
         <a
           href="https://www.linkedin.com/in/keerthi-alampalli-002750152/"
           target="_blank"
@@ -48,7 +48,7 @@ const Contact = () => {
           </i>
         </a>
       </section>
-    </div>
+  
   );
 };
 

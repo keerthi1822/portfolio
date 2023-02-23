@@ -16,33 +16,35 @@ const Navigation = () => {
 
       </div>
 
-      <ul className='navigation-list'>
+      <div  className='navigation-list'>
+        <ul>
 
-        <li>
-          <Link activeClass="active" smooth spy to="AboutMe">
-            About me
-          </Link>
-        </li>
+          <li>
+            <Link activeClass="active" smooth spy to="AboutMe">
+              About me
+            </Link>
+          </li>
 
-        <li>
-          <Link activeClass="active" smooth spy to="Portfolio">
-            Projects
-          </Link>
-        </li>
+          <li>
+            <Link activeClass="active" smooth spy to="Portfolio">
+              Projects
+            </Link>
+          </li>
 
-        <li>
-          <Link activeClass="active" smooth spy to="Education">
-            Education
-          </Link>
-        </li>
-        <li>
+          <li>
+            <Link activeClass="active" smooth spy to="Education">
+              Education
+            </Link>
+          </li>
+        {/*   <li>
 
-          <Link activeClass="active" smooth spy to="EducContactation">
-            Contact
-          </Link>
-        </li>
+            <Link activeClass="active" smooth spy to="EducContactation">
+              Contact
+            </Link>
+          </li> */}
 
-      </ul>
+        </ul>
+      </div>
     </div>
   )
 }
