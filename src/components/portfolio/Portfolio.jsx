@@ -1,5 +1,4 @@
 import React,{ useState} from 'react';
-import { Link } from 'react-scroll'
 
 import dashboard from "../../asserts/Dashboard.png"
 import plata from "../../asserts/Plata.png"

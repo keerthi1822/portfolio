@@ -16,8 +16,25 @@ h4,
 h5,
 h6 {
   color: rgb(245, 183, 183);
-  animation: fadeIn 5s;
+ 
 
+}
+
+.intro{
+  animation: animateTranslate 4s;
+}
+
+@keyframes animateTranslate {
+  0% {
+    transform: translate(-20px, -50px);
+    opacity: 0;
+  }
+
+
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
 }
 
 
@@ -44,14 +61,15 @@ h6 {
 
 /* ------------------------------- */
 .aboutme,
-.portfolio {
+.portfolio,
+.education-section {
   max-width: 70%;
   margin: auto;
   padding: 5% 0;
 }
 
 .aboutme {
-  background-image: url(../src/asserts/aboutme.jpg)no-repeat;
+  background-image: url(../src/asserts/aboutme.jpg) no-repeat;
 }
 
 .aboutme-heading {
@@ -64,17 +82,29 @@ h6 {
 .education-heading {
   font-family: Arial;
   font-size: calc(10px + 2vmin);
+ /*  animation: fadeIn 5s; */
+}
+
+.aboutme-heading:active,.aboutme-heading:focus,
+.portfolio-heading:active,.portfolio-heading:focus,
+.education-heading :active,.education-heading :focus{
+
   animation: fadeIn 5s;
 }
 
 
+
 @keyframes fadeIn {
   0% {
-    opacity: 0;
+    /* transform: skewX(20deg); */
+    transform: translate(20px, 50px);
+   /*  opacity: 0; */
   }
 
   100% {
-    opacity: 1;
+    /* transform: skewX(0deg); */
+    transform: translate(0px, 0px);
+    /* opacity: 1; */
   }
 }
 
@@ -128,19 +158,16 @@ h6 {
   color: azure;
 }
 
-.education-section {
-  margin: 0 auto 10%;
-  max-width: 70%;
-}
-
-
 .education-heading {
-  padding: 4% 0;
-  background-image: url(../src/asserts/page1.jpg) norepeat center center;
+  padding: 5% 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.education-section {
+  margin-bottom: 10%;
 }
 
 .education {
@@ -155,9 +182,9 @@ h6 {
 
 }
 
-.active {
+/* .active {
   color: rgb(245, 183, 183)
-}
+} */
 
 /* Project courasel styles */
 .carousel {
@@ -219,13 +246,21 @@ h6 {
 
 
 /* For extremely small screen devices (595px and below) */
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 600px) {
 
   .App-header {
     margin-top: 40px;
     min-height: 50vh;
     flex-direction: column-reverse;
   }
+
+  .aboutme,
+.portfolio,
+.education-section {
+  max-width: 70%;
+  margin: 1% auto;
+  padding: 15% 0;
+}
 
   .aboutme-heading,
   .portfolio-heading,
@@ -238,7 +273,7 @@ h6 {
     border-radius: 50%;
   }
 
-  .project-content {
+/*   .project-content {
     width: 100%;
     margin: 3% 0;
   }
@@ -251,19 +286,10 @@ h6 {
   .project-img img {
     width: 100%;
     height: 100%;
-  }
-
-  .education {
-    flex-direction: column;
-  }
-
-
-}
-
-@media only screen and (max-width: 600px) {
+  } */
   .project-img {
     width: 100%;
-    height: 150px;
+    height: 200px;
   }
 
   .project-img img {
@@ -275,6 +301,21 @@ h6 {
   .project-content {
     width: 100%;
     margin: 1% 0;
+  }
+
+  .education {
+    flex-direction: column;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutme .active,
+  .portfolio .active,
+  .education-section .active {
+  
+    padding: 15% 0;
   }
 }
 

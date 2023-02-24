@@ -31,7 +31,7 @@ const Education = () => {
         {
           
           education.map((e, i) => <div key={`edu${i}`} className={"card "}>
-           <div style={{color:"azure",width:'30px'}}> <i class="fa fa-graduation-cap" aria-hidden="true"></i>{/*  <FontAwesomeIcon icon={e.icon} /> */}</div>
+           <div style={{color:"azure",width:'30px'}}> <i className="fa fa-graduation-cap" aria-hidden="true"></i>{/*  <FontAwesomeIcon icon={e.icon} /> */}</div>
           <p>{e.degree}</p>
           <p>{e.specialization}</p>
           <p>{e.instituteName}</p>

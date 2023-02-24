@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-scroll";
+import { HashLink as Link } from "react-router-hash-link";
 
 import './navigation.css'
 
@@ -10,7 +10,7 @@ const Navigation = () => {
 
       <div className='home-link'>
 
-        <Link activeClass="active" smooth spy to="home">
+        <Link  to="#home" smooth>
           H!!OM!!E
         </Link>
 
@@ -20,29 +20,22 @@ const Navigation = () => {
         <ul>
 
           <li>
-            <Link activeClass="active" smooth spy to="AboutMe">
+            <Link to="#AboutMe" smooth >
               About me
             </Link>
           </li>
 
           <li>
-            <Link activeClass="active" smooth spy to="Portfolio">
+            <Link to="#Portfolio"  smooth >
               Projects
             </Link>
           </li>
 
           <li>
-            <Link activeClass="active" smooth spy to="Education">
+            <Link to="#Education" smooth >
               Education
             </Link>
           </li>
-        {/*   <li>
-
-            <Link activeClass="active" smooth spy to="EducContactation">
-              Contact
-            </Link>
-          </li> */}
-
         </ul>
       </div>
     </div>

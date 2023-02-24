@@ -9,7 +9,7 @@ const LandingPage = ({ColoredLine}) => {
     <div>
       <header className="App-header">
 
-        <section className='padding'>
+        <section className='padding intro'>
           <h2 className='padding'> Keerthika Devi <br /> Alampalli</h2>
           <ColoredLine color='gray' />
           <h5 className='padding'>Frontend developer</h5>

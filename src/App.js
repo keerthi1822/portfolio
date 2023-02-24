@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom';
 
 
 import AboutMe from './components/aboutme/AboutMe';
@@ -25,26 +26,27 @@ function App() {
 
   return (
     <div className="App">
-
-      <div>
-        <Navigation />
-        <div id="home">
-          <LandingPage ColoredLine={ColoredLine} />
+      <BrowserRouter>
+        <div>
+          <Navigation />
+          <div id="home">
+            <LandingPage ColoredLine={ColoredLine} />
+          </div>
+          <div id="AboutMe">
+            <AboutMe />
+          </div>
+          <div id="Portfolio">
+            <Portfolio ColoredLine={ColoredLine} />
+          </div>
+          <div id="Education">
+            <Education />
+            <ColoredLine color="gray" />
+          </div >
+          <div id="Contact">
+            <Contact />
+          </div>
         </div>
-        <div id="AboutMe">
-          <AboutMe />
-        </div>
-        <div id="Portfolio">
-          <Portfolio ColoredLine={ColoredLine} />
-        </div>
-        <div id="Education">
-          <Education />
-          <ColoredLine color="gray" />
-        </div >
-        <div id="Contact">
-          <Contact />
-        </div>
-      </div>
+      </BrowserRouter>
     </div>
   );
 }
