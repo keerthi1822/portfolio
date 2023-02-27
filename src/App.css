@@ -146,6 +146,8 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  gap: 1rem;
+  font-size: 0.9rem;
   justify-content: center;
   margin-top: 5px;
 }

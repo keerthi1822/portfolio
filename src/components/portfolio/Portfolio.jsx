@@ -122,7 +122,7 @@ if(projects[i] = project) setActive(i)
                   <p>{p.description}</p></div>
                 <div  className='project-content'>
                   <h5>Technologies:</h5>
-                  <ul className='tech '>{p.technologiesUsed.map((tech, i) => <li className='' key={`tech${i}`}>{tech}</li>)}</ul>
+                  <ul className='tech'>{p.technologiesUsed.map((tech, i) => <li className='' key={`tech${i}`}>{tech}</li>)}</ul>
                 </div>
               </section>
 

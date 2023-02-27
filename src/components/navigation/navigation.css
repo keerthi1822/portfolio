@@ -10,12 +10,11 @@
   background-color: #282c34;
 }
 
-.navigation-list {
+/* .navigation-list{
   display: flex;
   list-style: none;
-  flex-basis: 50%;
-  justify-content: space-around;
-}
+  justify-content: space-between;
+} */
 
 
 .navigation-list li *,
@@ -34,10 +33,10 @@
   border-radius: none;
 }
 
-ul {
+.navigation-list ul {
   display: flex;
-  gap: 1rem;
-  font-size: 0.9rem;
+justify-content: space-around;
+width: 50vw;
   list-style: none;
   padding: 0;
 }
@@ -53,9 +52,10 @@ li:hover {
     flex-direction: column;
   }
 
-  .navigation-list {
+  .navigation-list  ul{
     padding-top: 2%;
     flex-wrap: wrap;
+    width: 100%;
   }
 
 }
