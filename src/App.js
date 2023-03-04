@@ -1,6 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
 
-
 import AboutMe from './components/aboutme/AboutMe';
 import LandingPage from './LandingPage';
 import Navigation from './components/navigation/Navigation'
@@ -9,7 +8,6 @@ import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/./contact/Contact';
 
 import './App.css';
-
 
 
 function App() {

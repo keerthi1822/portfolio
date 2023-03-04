@@ -83,29 +83,11 @@ const projects = [
 
 const Portfolio = ({ ColoredLine }) => {
 
-  const [active,setActive] = useState("")
-
-  /* const onFocusHandler =(i,project) => {
-if(projects[i] = project) setActive(i)
-  } */
-
   return (
     <div className="portfolio ">
 
       <h4 className='portfolio-heading '><span>Projects</span></h4>
       <>
-       {/*  <div className="controls">
-          {
-            projects.map((p, i) =>
-            
-            <a   onClick={() => setActive(i)}
-            className={`${active === i? "active controls__dot" : "controls__dot"}`} key={`controls${i}`} href={"#" + p.projectName}  >
-              <span className="visuallyhidden">{p.id}</span>
-            </a> 
-           
-            )
-          }
-        </div> */}
         <section className="projects carousel">
 
           {
