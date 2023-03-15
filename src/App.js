@@ -5,6 +5,7 @@ import LandingPage from './LandingPage';
 import Navigation from './components/navigation/Navigation'
 import Education from './components/education/Education';
 import Portfolio from './components/portfolio/Portfolio';
+import Interests from './components/interests/Interests'
 import Contact from './components/./contact/Contact';
 
 import './App.css';
@@ -38,8 +39,13 @@ function App() {
           </div>
           <div id="Education">
             <Education />
-            <ColoredLine color="gray" />
+         
           </div >
+          <div id="Interests">
+            <Interests />
+          
+          </div>
+          <ColoredLine color="gray" />
           <div id="Contact">
             <Contact />
           </div>

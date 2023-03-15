@@ -62,10 +62,15 @@ h6 {
 /* ------------------------------- */
 .aboutme,
 .portfolio,
-.education-section {
+.education-section ,
+.interests{
   max-width: 70%;
   margin: auto;
   padding: 5% 0;
+}
+
+.interests {
+  height: 110vh;
 }
 
 .aboutme {
@@ -79,7 +84,8 @@ h6 {
 
 .aboutme-heading,
 .portfolio-heading,
-.education-heading {
+.education-heading ,
+.interests-heading {
   font-family: Arial;
   font-size: calc(10px + 2vmin);
  /*  animation: fadeIn 5s; */
@@ -87,7 +93,8 @@ h6 {
 
 .aboutme-heading:active,.aboutme-heading:focus,
 .portfolio-heading:active,.portfolio-heading:focus,
-.education-heading :active,.education-heading :focus{
+.education-heading :active,.education-heading :focus,
+.interests-heading:active,.interests-heading:focus {
 
   animation: fadeIn 5s;
 }
@@ -191,8 +198,8 @@ h6 {
 /* Project courasel styles */
 .carousel {
   display: flex;
-  scroll-snap-type: x proximity;
-  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
   scroll-behavior: smooth;
   -ms-overflow-style: none
 }
@@ -244,6 +251,62 @@ h6 {
   text-decoration: none;
 }
 
+/* Interests */
+
+.card-container {
+  position: relative;
+  width: 100vmin;
+  height: 100vmin;
+  margin: auto;
+}
+
+.imgCard {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: 2px;
+  overflow: auto;
+   transition: transform .35s ease-out;
+   transform: translate(var(--x), var(--y)) scale(.35) rotate(var(--angle));
+   will-change: transform;
+}
+
+.imgCard:hover {
+   transform: scale(1) rotate(0deg);
+   z-index: 1;
+}
+
+.imgCard:hover::before {
+   opacity: 1;
+}
+
+.imgCard::before {
+   content: "";
+   display: block;
+   width: 90%;
+   height: 80%;
+   margin: 5%;
+   background: var(--image) center center no-repeat;
+   background-size: cover;
+   box-shadow: inset 0 0 5px rgba(#222, .35);
+   border-radius: 2px;
+   filter: sepia(.2) brightness(.9) contrast(1.2);
+   transition: opacity .35s ease-out;
+   opacity: .5;
+   will-change: opacity;
+}
+
+.imgCard::after {
+   display: block;
+   content: var(--caption);
+   font-weight: 500;
+   font-size: 3vmin;
+   opacity: .75;
+   text-align: center;
+}
+
 /* Break points */
 
 
@@ -256,7 +319,7 @@ h6 {
     flex-direction: column-reverse;
   }
 
-  .aboutme,
+.aboutme,
 .portfolio,
 .education-section {
   max-width: 70%;
@@ -275,20 +338,6 @@ h6 {
     border-radius: 50%;
   }
 
-/*   .project-content {
-    width: 100%;
-    margin: 3% 0;
-  }
-
-  .project-img {
-    width: 60%;
-    height: 150px;
-  }
-
-  .project-img img {
-    width: 100%;
-    height: 100%;
-  } */
   .project-img {
     width: 100%;
     height: 200px;
@@ -308,18 +357,20 @@ h6 {
   .education {
     flex-direction: column;
   }
+  .card-container {
 
+    width: 40vmin;
+    height: 40vmin;
 
-}
-
-@media only screen and (min-width: 600px) {
-  .aboutme .active,
-  .portfolio .active,
-  .education-section .active {
-  
-    padding: 15% 0;
   }
+
+  .interests {
+    height:30vh
+  }
+
+
 }
+
 
 @media only screen and (min-width: 600px) {
   .project-img {
@@ -336,6 +387,18 @@ h6 {
   .project-content {
     width: 100%;
     margin: 1% 0;
+  }
+
+  .aboutme .active,
+  .portfolio .active,
+  .education-section .active {
+  
+    padding: 15% 0;
+  }
+
+  .card-container {
+    width: 60vmin;
+    height: 60vmin;
   }
 }
 
@@ -357,6 +420,13 @@ h6 {
     width: 250px;
     margin: 1% 0;
   }
+
+  .card-container {
+    height: 90vmin;
+  }
+/*   .interests {
+    height: 170vh;
+  } */
 
 }
 

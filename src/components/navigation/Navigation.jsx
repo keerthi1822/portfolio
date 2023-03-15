@@ -36,6 +36,12 @@ const Navigation = () => {
               Education
             </Link>
           </li>
+
+          <li>
+            <Link to="#Interests" smooth >
+              Interests
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
