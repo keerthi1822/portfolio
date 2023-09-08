@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7f698c27.css",
-    "main.js": "/portfolio/static/js/main.34470dd0.js",
+    "main.css": "/portfolio/static/css/main.d851f226.css",
+    "main.js": "/portfolio/static/js/main.09aeb0c5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/sydDanskInnovation.PNG": "/portfolio/static/media/sydDanskInnovation.62690a1ca6a46043a835.PNG",
     "static/media/OmNamahSivaya.jpg": "/portfolio/static/media/OmNamahSivaya.f1592c9d812be4cd2dfe.jpg",
@@ -25,12 +25,12 @@
     "static/media/aboutme.jpg": "/portfolio/static/media/aboutme.e1e8994d01a16a74ae14.jpg",
     "static/media/codeart.PNG": "/portfolio/static/media/codeart.83475fe057993f0af0a3.PNG",
     "index.html": "/portfolio/index.html",
-    "main.7f698c27.css.map": "/portfolio/static/css/main.7f698c27.css.map",
-    "main.34470dd0.js.map": "/portfolio/static/js/main.34470dd0.js.map",
+    "main.d851f226.css.map": "/portfolio/static/css/main.d851f226.css.map",
+    "main.09aeb0c5.js.map": "/portfolio/static/js/main.09aeb0c5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f698c27.css",
-    "static/js/main.34470dd0.js"
+    "static/css/main.d851f226.css",
+    "static/js/main.09aeb0c5.js"
   ]
 }
