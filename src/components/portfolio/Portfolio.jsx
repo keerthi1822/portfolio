@@ -6,9 +6,7 @@ import Syd from "../../asserts/sydDanskInnovation.PNG"
 import vibildco from "../../asserts/vibildco.PNG"
 import fabric from "../../asserts/fabric.PNG"
 import codeart from "../../asserts/codeart.PNG"
-
-
-
+/* import relate from "../../asserts/relate.png" */
 
 
 /* import './portfolio.css'; */
@@ -18,7 +16,17 @@ import '../../App.css';
 const projects = [
 
   {
-    id: 1,
+    id: 7,
+    projectName: "Relate-Picture coming soon :)",
+    img: "",
+    technologiesUsed: ["React", "JavaScript", "HTML/CSS", "Google Cloud", "NodeJs", "Project Management", "GIT"],
+    company: "Freelancing",
+    position: "Web Developer (04/2023 - present)",
+    description: "Developing intricate survey web pages with a user-friendly design utilizing React, JavaScript, and Firebase, while also assuming responsibility for gathering client requirements and managing the entire project through the application of cutting-edge project management tools and technology."
+  },
+
+  {
+    id: 6,
     projectName: "Fintech",
     img: plata,
     technologiesUsed: ["React", "JavaScript", "Typescipt", "HTML/CSS", "Jest", "TailwindCSS","Postman"],
@@ -27,7 +35,7 @@ const projects = [
     description: "Building an application by automating the registration flow using React and maintaining the application consistency using DRY concepts. And mentoring student employees on the programming and React Application that we are working on."
   },
   {
-    id: 2,
+    id: 5,
     projectName: "Profile",
     img: codeart,
     technologiesUsed: ["React Hooks", "JavaScript", "HTML/CSS", "Postman"],
@@ -37,7 +45,7 @@ const projects = [
 
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Vibildco",
     link: "vibildco.dk",
     img: vibildco,
@@ -48,7 +56,7 @@ const projects = [
 
   },
   {
-    id: 4,
+    id: 3,
     projectName: "Syddanskinnovation",
     link: "https://www.syddanskinnovation.dk/",
     img: Syd,
@@ -59,7 +67,7 @@ const projects = [
 
   },
   {
-    id: 5,
+    id: 2,
     projectName: "DashBoard",
     img: dashboard,
     technologiesUsed: ["React", "JavaScript", "HTML/CSS", "Highcharts"],
@@ -69,7 +77,7 @@ const projects = [
 
   },
   {
-    id: 6,
+    id: 1,
     projectName: "Fabric",
     img: fabric,
     technologiesUsed: ["React", "JavaScript", "HTML/CSS", "Highcharts", "NodeJs", "MySQL", "GIT"],
@@ -78,6 +86,7 @@ const projects = [
     description: "Upgrading and maintenance of application as per user needs and requirements using React and NodeJS"
 
   },
+ 
 
 ]
 
