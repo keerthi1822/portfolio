@@ -6,7 +6,7 @@ import Syd from "../../asserts/sydDanskInnovation.PNG"
 import vibildco from "../../asserts/vibildco.PNG"
 import fabric from "../../asserts/fabric.PNG"
 import codeart from "../../asserts/codeart.PNG"
-/* import relate from "../../asserts/relate.png" */
+import relate from "../../asserts/Relate.jpg"
 
 
 /* import './portfolio.css'; */
@@ -17,8 +17,8 @@ const projects = [
 
   {
     id: 7,
-    projectName: "Relate-Picture coming soon :)",
-    img: "",
+    projectName: "Relate",
+    img: relate,
     technologiesUsed: ["React", "JavaScript", "HTML/CSS", "Google Cloud", "NodeJs", "Project Management", "GIT"],
     company: "Freelancing",
     position: "Web Developer (04/2023 - present)",
