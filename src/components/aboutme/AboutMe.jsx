@@ -6,12 +6,8 @@ const AboutMe = () => {
     <div  className='aboutme '>
       <h4 className='aboutme-heading'><span>About me</span></h4>
       
-      <p >I am a dedicated and motivated Frontend Developer with recent experience at a 
-        Fintech startup where I utilized the latest Front-end technologies to create 
-        interactive and dynamic websites. With a keen eye for aesthetics and a passion 
-        for creativity, I am constantly seeking to expand my knowledge and skills in new 
-        technologies. As an effective team player, 
-        I have experience collaborating with individuals both locally and internationally.</p>
+      <p >I'm a dedicated and motivated Frontend Developer with recent experience in a Fintech startup, where I leveraged state-of-the-art Front-end technologies to create captivating and dynamic websites. I have been a resident of Denmark for the past decade and am the proud mother of two children, aged 10 and 14. My passion lies in pencil sketches and paintings. With a demonstrated history of success in the financial services industry, I bring expertise in HTML, SASS, and Front-end Development, highlighting my robust engineering background.
+</p>
     </div>
   )
 }
