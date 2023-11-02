@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d851f226.css",
-    "main.js": "/portfolio/static/js/main.fe912663.js",
+    "main.js": "/portfolio/static/js/main.9780a2a3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/sydDanskInnovation.PNG": "/portfolio/static/media/sydDanskInnovation.62690a1ca6a46043a835.PNG",
     "static/media/OmNamahSivaya.jpg": "/portfolio/static/media/OmNamahSivaya.f1592c9d812be4cd2dfe.jpg",
@@ -27,11 +27,11 @@
     "static/media/codeart.PNG": "/portfolio/static/media/codeart.83475fe057993f0af0a3.PNG",
     "index.html": "/portfolio/index.html",
     "main.d851f226.css.map": "/portfolio/static/css/main.d851f226.css.map",
-    "main.fe912663.js.map": "/portfolio/static/js/main.fe912663.js.map",
+    "main.9780a2a3.js.map": "/portfolio/static/js/main.9780a2a3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d851f226.css",
-    "static/js/main.fe912663.js"
+    "static/js/main.9780a2a3.js"
   ]
 }
