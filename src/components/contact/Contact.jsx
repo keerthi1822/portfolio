@@ -37,7 +37,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="/Keerthika'sCV23.pdf"
+          href="/KeerthikasCV23.pdf"
           download
           rel="noreferrer"
           title="click for resume"
