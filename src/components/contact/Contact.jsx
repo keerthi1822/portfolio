@@ -36,7 +36,7 @@ const Contact = () => {
           <i className="fas fa-phone-square-alt"></i>
         </a>
 
-        <a
+        {/* <a
           href="/KeerthikasCV23.pdf"
           download
           rel="noreferrer"
@@ -46,7 +46,7 @@ const Contact = () => {
             Keerthika Devi Alampalli{" "}
             <i className="fas fa-cloud-download-alt"></i>
           </i>
-        </a>
+        </a> */}
       </section>
   
   );
