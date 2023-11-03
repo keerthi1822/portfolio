@@ -1,9 +1,9 @@
 
 .social_icons {
   height: 3%;
-  padding: 2% 5%;
+  padding: 2% 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content:flex-end;
   background-color: #282c34;
   flex-wrap: wrap;
   position: fixed;
@@ -17,6 +17,8 @@
 .social_icons a {
   color: rgb(245, 183, 183);
   text-decoration: none;
+  padding: 0 20px;
+  
 }
 
 @media only screen and (max-width: 600px) {
